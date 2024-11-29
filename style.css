@@ -1,4 +1,7 @@
+/* imported font */
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+/* general styling */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,6 +12,18 @@ body {
     font-family: "Outfit", sans-serif;
     color: #060c3e;
     background: #f3f3fd;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    line-height: 25.6px;
 }
 
 a {
@@ -22,20 +37,26 @@ a {
 button {
     background: #060c3e;
     color: #fff;
-    padding: 14px 28px;
+    padding: 20px 50px;
     border: none;
     border-radius: 35px;
     cursor: pointer;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 600;
 }
 
+
+/* ############# Header Section Styling ##########*/
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2% 8%;
-    background: #fff;
+    padding: 3% 8% 2%;
+    /* background: #fff; */
+}
+
+header button {
+    padding: 14px 28px;
 }
 
 header img {
@@ -47,12 +68,38 @@ header img {
     gap: 0 50px;
 }
 
+
+/* ########### Section 1 Styling ########## */
 .section1 {
     display: flex;
-    padding: 2% 8%;
+    justify-content: space-between;
+    padding: 2% 18% 2% 8%;
 }
 
-h1 {
-    font-size: 72px;
+.heroImg, .heroSection {
+    width: 44%;
+    position: relative;
 }
 
+.heroImg img {
+    width: 140px;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+
+.heroImg .people {
+    width: 450px;
+    border-radius: 10px 120px;
+    left: 70px;
+    top: 0;
+    z-index: 1;
+}
+
+.section1 p {
+    margin: 4% 0;
+}
+
+.section1 h3 {
+    margin: 10% 0 5% 0;
+}
