@@ -18,6 +18,10 @@ h1 {
     font-size: 70px;
 }
 
+h2 {
+    font-size: 42px;
+}
+
 h3 {
     font-size: 24px;
 }
@@ -43,6 +47,10 @@ button {
     cursor: pointer;
     font-size: 15px;
     font-weight: 600;
+}
+
+section {
+    margin-bottom: 10%;
 }
 
 
@@ -102,4 +110,43 @@ header img {
 
 .section1 h3 {
     margin: 10% 0 5% 0;
+}
+
+
+/* ########### Section 2 Styling ########## */
+.section2 {
+    height: 100vh;
+    background-image: url(images/black-woman-man-have-informal-meeting.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.section2 .overview {
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    border-radius: 15px;
+    position: relative;
+}
+
+.section2 p {
+    padding: 1% 6% 3%;
+}
+
+.section2 .dotImg img {
+    width: 140px;
+    position: absolute;
+    bottom: -70px;
+    right: 60px;
 }
