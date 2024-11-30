@@ -116,12 +116,14 @@ header img {
 /* ########### Section 2 Styling ########## */
 .section2 {
     height: 100vh;
+    filter: saturate(0.5);
     background: url(images/black-woman-man-have-informal-meeting.jpg) #0003 no-repeat center / cover fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
+    
 }
 
 .section2 .overview {
@@ -135,6 +137,7 @@ header img {
     background: #fff;
     border-radius: 15px;
     position: relative;
+    z-index: 2;
 }
 
 .section2 p {
