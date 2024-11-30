@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-    font-size: 42px;
+    font-size: 44px;
 }
 
 h3 {
@@ -123,11 +123,11 @@ header img {
     justify-content: center;
     align-items: center;
     position: relative;
-    
+    margin-bottom: 7%;
 }
 
 .section2 .overview {
-    width: 90%;
+    width: 85%;
     height: 70%;
     display: flex;
     flex-direction: column;
@@ -140,12 +140,40 @@ header img {
 }
 
 .section2 p {
-    padding: 1% 6% 3%;
+    padding: 1% 3.5% 3%;
 }
 
 .section2 .dotImg img {
     width: 8.75em;
     position: absolute;
     bottom: -70px;
-    right: 60px;
+    right: 80px;
+}
+
+
+/* ########### Section 3 Styling ########## */
+.section3 {
+    display: flex;
+    padding: 0 8%;
+}
+
+.section3 .imgDiv, .section3 .textDiv {
+    width: 50%;
+}
+
+.section3 .textDiv {
+    background: #fff;
+    padding: 4% 4%;
+    border-radius: 0 15px 15px 0;
+}
+
+.section3 .imgDiv img {
+    width: 100%;
+}
+
+.section3 .textDiv p {
+    margin: 2% 0 10%;
+}
+.section3 .textDiv h2 {
+    line-height: 67.2px;
 }
