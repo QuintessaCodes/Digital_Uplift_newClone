@@ -97,7 +97,7 @@ header img {
 }
 
 .heroImg .people {
-    width: 450px;
+    width: 100%;
     border-radius: 10px 120px;
     left: 70px;
     top: 0;
@@ -116,10 +116,7 @@ header img {
 /* ########### Section 2 Styling ########## */
 .section2 {
     height: 100vh;
-    background-image: url(images/black-woman-man-have-informal-meeting.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url(images/black-woman-man-have-informal-meeting.jpg) #0003 no-repeat center / cover fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
