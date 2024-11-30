@@ -90,7 +90,7 @@ header img {
 }
 
 .heroImg img {
-    width: 140px;
+    width: 8.75em;
     position: absolute;
     top: 100px;
     left: 20px;
@@ -142,7 +142,7 @@ header img {
 }
 
 .section2 .dotImg img {
-    width: 140px;
+    width: 8.75em;
     position: absolute;
     bottom: -70px;
     right: 60px;
